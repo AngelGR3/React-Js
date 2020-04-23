@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .Login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .Login-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-content {
+    display: flex !important;
+    flex-direction: column;
+  }
+  
+  .Home {
+    margin: 2%;
+  }
+  
+  .Home nav {
+    padding: 8px;
+  }
+  
+  .Home-avatar {
+    width: 60px;
+    height: auto;
+  }
+  
+  .Home-logout {
+    font-size: 2em;
+    margin: -5px 10px 0px 10px;
+    cursor: pointer;
+  }
